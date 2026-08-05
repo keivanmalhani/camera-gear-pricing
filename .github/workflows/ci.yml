@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+
+      - name: Run tests
+        # The suite makes no network calls. If one ever appears, it fails here.
+        run: python -m pytest -q
+
+      - name: End to end smoke test in fixture mode
+        run: |
+          set -e
+          mkdir -p /tmp/gearwatch-smoke
+          cd /tmp/gearwatch-smoke
+          gearwatch --db demo.db init
+          gearwatch --db demo.db watch add "Sony FE 35mm f/1.4 GM" \
+            --max-price 900 --condition excellent --currency USD --require gm
+          gearwatch --db demo.db sync --fixture "$GITHUB_WORKSPACE/fixtures/demo.json"
+          gearwatch --db demo.db prices
+          gearwatch --db demo.db deals --min-score 60
+          gearwatch --db demo.db dashboard -o dashboard.html
+          test -s dashboard.html
