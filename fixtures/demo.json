@@ -1,0 +1,687 @@
+{
+  "fixture_version": 1,
+  "generated_at": "2026-08-05T00:00:00Z",
+  "marketplace": "EBAY_US",
+  "note": "Canned, API-shaped JSON for offline demos and tests. Shapes mirror the eBay Marketplace Insights item_sales/search and Browse item_summary/search responses. Prices are representative, not a recording of any single real listing. Contains deliberate dirt: one price outlier, one wrong-currency comp, one near-miss model, one unmapped condition id, and one for-parts listing.",
+  "queries": {
+    "Sony FE 35mm f/1.4 GM": {
+      "sold_pages": [
+        {
+          "total": 22,
+          "limit": 12,
+          "offset": 0,
+          "itemSales": [
+            {
+              "itemId": "v1|305512340101|0",
+              "title": "MINT!! Sony FE 35mm F1.4 GM SEL35F14GM Lens *Fast Ship*",
+              "lastSoldPrice": {
+                "value": "950.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-05-12T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340101",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340102|0",
+              "title": "Sony FE 35mm f/1.4 GM G Master Lens SEL35F14GM Excellent+",
+              "lastSoldPrice": {
+                "value": "940.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-05-18T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340102",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340103|0",
+              "title": "SONY SEL35F14GM FE 35mm F/1.4 GM E-Mount Lens L@@K",
+              "lastSoldPrice": {
+                "value": "930.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-05-24T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340103",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340104|0",
+              "title": "Sony FE 35 mm f/1.4 GM Lens - Near Mint from Japan",
+              "lastSoldPrice": {
+                "value": "925.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-05-29T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340104",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340105|0",
+              "title": "Sony FE 35mm F1.4 GM Wide Angle Prime Lens Excellent Condition",
+              "lastSoldPrice": {
+                "value": "915.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-03T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340105",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340106|0",
+              "title": "Sony G Master FE 35mm f/1.4 GM SEL35F14GM w/ Hood and Caps",
+              "lastSoldPrice": {
+                "value": "905.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-09T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340106",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340107|0",
+              "title": "Sony FE 35mm f/1.4 GM Lens (SEL35F14GM) - Glass Clear",
+              "lastSoldPrice": {
+                "value": "899.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-15T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340107",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340108|0",
+              "title": "Sony FE 35mm F1.4 GM Lens SEL35F14GM Tested Works Great",
+              "lastSoldPrice": {
+                "value": "890.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-21T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340108",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340109|0",
+              "title": "Sony FE 35mm f/1.4 GM E-mount Lens - Excellent Condition, Boxed",
+              "lastSoldPrice": {
+                "value": "885.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-27T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340109",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340110|0",
+              "title": "SONY FE 35MM F1.4 GM PRIME LENS SEL35F14GM",
+              "lastSoldPrice": {
+                "value": "880.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-03T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340110",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340111|0",
+              "title": "Sony FE 35mm f/1.4 GM Lens with Original Box - Clean Glass",
+              "lastSoldPrice": {
+                "value": "872.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-10T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340111",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340112|0",
+              "title": "Sony FE 35mm F1.4 GM SEL35F14GM Lens Bundle with Filter",
+              "lastSoldPrice": {
+                "value": "860.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-19T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340112",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            }
+          ]
+        },
+        {
+          "total": 22,
+          "limit": 12,
+          "offset": 12,
+          "itemSales": [
+            {
+              "itemId": "v1|305512340113|0",
+              "title": "Sony FE 35mm f/1.4 GM SEL35F14GM lens haze inside no returns",
+              "lastSoldPrice": {
+                "value": "320.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-25T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340113",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340114|0",
+              "title": "Sony FE 35mm f/1.4 GM SEL35F14GM Objektiv Top Zustand",
+              "lastSoldPrice": {
+                "value": "850.00",
+                "currency": "EUR"
+              },
+              "lastSoldDate": "2026-06-30T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340114",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340115|0",
+              "title": "Sony Zeiss Distagon T* FE 35mm F1.4 ZA SEL35F14Z Full Frame",
+              "lastSoldPrice": {
+                "value": "780.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-05T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340115",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340116|0",
+              "title": "Sony FE 35mm f/1.4 GM Lens - some marks on barrel, glass clean",
+              "lastSoldPrice": {
+                "value": "820.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-11T14:22:05.000Z",
+              "conditionId": "4000",
+              "condition": "Very Good",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340116",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340117|0",
+              "title": "Sony FE 35mm F1.4 GM SEL35F14GM - well used but functional",
+              "lastSoldPrice": {
+                "value": "799.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-24T14:22:05.000Z",
+              "conditionId": "5000",
+              "condition": "Good",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340117",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340118|0",
+              "title": "Sony FE 35mm f/1.4 GM Lens Good Condition SEL35F14GM",
+              "lastSoldPrice": {
+                "value": "835.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-06T14:22:05.000Z",
+              "conditionId": "4000",
+              "condition": "Very Good",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340118",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340119|0",
+              "title": "SONY FE 35mm f/1.4 GM lens, minor dust in element",
+              "lastSoldPrice": {
+                "value": "810.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-15T14:22:05.000Z",
+              "conditionId": "5000",
+              "condition": "Good",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340119",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340120|0",
+              "title": "Sony FE 35mm f/1.4 GM SEL35F14GM Like New in Box",
+              "lastSoldPrice": {
+                "value": "1050.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-18T14:22:05.000Z",
+              "conditionId": "2750",
+              "condition": "Like New",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340120",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340121|0",
+              "title": "Sony FE 35mm F1.4 GM Lens Like New Condition Complete Kit",
+              "lastSoldPrice": {
+                "value": "1020.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-12T14:22:05.000Z",
+              "conditionId": "2750",
+              "condition": "Like New",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340121",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|305512340122|0",
+              "title": "Sony FE 35mm f/1.4 GM SEL35F14GM autofocus motor failure",
+              "lastSoldPrice": {
+                "value": "250.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-21T14:22:05.000Z",
+              "conditionId": "7000",
+              "condition": "For parts or not working",
+              "itemWebUrl": "https://www.ebay.com/itm/305512340122",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            }
+          ]
+        }
+      ],
+      "live_pages": [
+        {
+          "total": 5,
+          "limit": 50,
+          "offset": 0,
+          "itemSummaries": [
+            {
+              "itemId": "v1|405512340201|0",
+              "title": "Sony FE 35mm f/1.4 GM SEL35F14GM Lens - Excellent, Moving Sale",
+              "price": {
+                "value": "849.00",
+                "currency": "USD"
+              },
+              "conditionId": "3000",
+              "condition": "Used",
+              "seller": {
+                "username": "camerashop_pdx",
+                "feedbackPercentage": "99.4",
+                "feedbackScore": 2841
+              },
+              "itemCreationDate": "2026-08-01T09:11:00.000Z",
+              "itemWebUrl": "https://www.ebay.com/itm/405512340201",
+              "buyingOptions": [
+                "FIXED_PRICE"
+              ],
+              "itemLocation": {
+                "country": "US"
+              }
+            },
+            {
+              "itemId": "v1|405512340202|0",
+              "title": "MINT Sony FE 35mm F1.4 GM G Master Lens SEL35F14GM",
+              "price": {
+                "value": "899.00",
+                "currency": "USD"
+              },
+              "conditionId": "3000",
+              "condition": "Used",
+              "seller": {
+                "username": "glass_and_grain",
+                "feedbackPercentage": "99.4",
+                "feedbackScore": 2841
+              },
+              "itemCreationDate": "2026-07-29T09:11:00.000Z",
+              "itemWebUrl": "https://www.ebay.com/itm/405512340202",
+              "buyingOptions": [
+                "FIXED_PRICE"
+              ],
+              "itemLocation": {
+                "country": "US"
+              }
+            },
+            {
+              "itemId": "v1|405512340203|0",
+              "title": "Sony FE 35mm f/1.4 GM Lens Like New with Box and Papers",
+              "price": {
+                "value": "1099.00",
+                "currency": "USD"
+              },
+              "conditionId": "2750",
+              "condition": "Like New",
+              "seller": {
+                "username": "pnw_photo",
+                "feedbackPercentage": "99.4",
+                "feedbackScore": 2841
+              },
+              "itemCreationDate": "2026-08-03T09:11:00.000Z",
+              "itemWebUrl": "https://www.ebay.com/itm/405512340203",
+              "buyingOptions": [
+                "FIXED_PRICE"
+              ],
+              "itemLocation": {
+                "country": "US"
+              }
+            },
+            {
+              "itemId": "v1|405512340204|0",
+              "title": "Sony FE 35mm f/1.4 GM SEL35F14GM FOR PARTS ONLY not working",
+              "price": {
+                "value": "399.00",
+                "currency": "USD"
+              },
+              "conditionId": "7000",
+              "condition": "For parts or not working",
+              "seller": {
+                "username": "partsbin_co",
+                "feedbackPercentage": "99.4",
+                "feedbackScore": 2841
+              },
+              "itemCreationDate": "2026-07-30T09:11:00.000Z",
+              "itemWebUrl": "https://www.ebay.com/itm/405512340204",
+              "buyingOptions": [
+                "FIXED_PRICE"
+              ],
+              "itemLocation": {
+                "country": "US"
+              }
+            },
+            {
+              "itemId": "v1|405512340205|0",
+              "title": "Sony FE 35mm F1.8 SEL35F18F Wide Prime Lens",
+              "price": {
+                "value": "875.00",
+                "currency": "USD"
+              },
+              "conditionId": "3000",
+              "condition": "Used",
+              "seller": {
+                "username": "lensdepot",
+                "feedbackPercentage": "99.4",
+                "feedbackScore": 2841
+              },
+              "itemCreationDate": "2026-08-02T09:11:00.000Z",
+              "itemWebUrl": "https://www.ebay.com/itm/405512340205",
+              "buyingOptions": [
+                "FIXED_PRICE"
+              ],
+              "itemLocation": {
+                "country": "US"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Fujifilm XF 56mm f/1.2 R": {
+      "sold_pages": [
+        {
+          "total": 10,
+          "limit": 50,
+          "offset": 0,
+          "itemSales": [
+            {
+              "itemId": "v1|306612340101|0",
+              "title": "Fujifilm XF 56mm F1.2 R Fujinon Lens Excellent Condition",
+              "lastSoldPrice": {
+                "value": "660.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-02T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/306612340101",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|306612340102|0",
+              "title": "FUJIFILM FUJINON XF 56mm f/1.2 R Portrait Lens Mint",
+              "lastSoldPrice": {
+                "value": "640.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-14T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/306612340102",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|306612340103|0",
+              "title": "Fujifilm XF56MMF12R Lens for X-Mount - Very Nice",
+              "lastSoldPrice": {
+                "value": "630.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-22T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/306612340103",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|306612340104|0",
+              "title": "Fujifilm XF 56mm f/1.2 R Lens (Black) with caps",
+              "lastSoldPrice": {
+                "value": "625.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-01T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/306612340104",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|306612340105|0",
+              "title": "Fujifilm Fujinon XF 56mm F1.2 R Aspherical Lens",
+              "lastSoldPrice": {
+                "value": "615.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-09T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/306612340105",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|306612340106|0",
+              "title": "Fujifilm XF 56mm f/1.2 R - light use, glass clean",
+              "lastSoldPrice": {
+                "value": "605.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-17T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/306612340106",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|306612340107|0",
+              "title": "Fujifilm XF 56mm F1.2 R Lens XF56MMF12R",
+              "lastSoldPrice": {
+                "value": "599.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-26T14:22:05.000Z",
+              "conditionId": "3000",
+              "condition": "Used",
+              "itemWebUrl": "https://www.ebay.com/itm/306612340107",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|306612340108|0",
+              "title": "Fujifilm XF 56mm f/1.2 R Lens - scuffs on barrel",
+              "lastSoldPrice": {
+                "value": "575.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-06-28T14:22:05.000Z",
+              "conditionId": "5000",
+              "condition": "Good",
+              "itemWebUrl": "https://www.ebay.com/itm/306612340108",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|306612340109|0",
+              "title": "Fujifilm XF 56mm F1.2 R well loved but sharp",
+              "lastSoldPrice": {
+                "value": "560.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-13T14:22:05.000Z",
+              "conditionId": "5000",
+              "condition": "Good",
+              "itemWebUrl": "https://www.ebay.com/itm/306612340109",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            },
+            {
+              "itemId": "v1|306612340110|0",
+              "title": "Fujifilm XF 56mm f/1.2 R Lens",
+              "lastSoldPrice": {
+                "value": "620.00",
+                "currency": "USD"
+              },
+              "lastSoldDate": "2026-07-05T14:22:05.000Z",
+              "conditionId": "9999",
+              "condition": "Unspecified",
+              "itemWebUrl": "https://www.ebay.com/itm/306612340110",
+              "marketplaceId": "EBAY_US",
+              "totalSoldQuantity": 1
+            }
+          ]
+        }
+      ],
+      "live_pages": [
+        {
+          "total": 3,
+          "limit": 50,
+          "offset": 0,
+          "itemSummaries": [
+            {
+              "itemId": "v1|406612340201|0",
+              "title": "Fujifilm XF 56mm f/1.2 R Fujinon Portrait Lens Excellent",
+              "price": {
+                "value": "585.00",
+                "currency": "USD"
+              },
+              "conditionId": "3000",
+              "condition": "Used",
+              "seller": {
+                "username": "shutter_supply",
+                "feedbackPercentage": "99.4",
+                "feedbackScore": 2841
+              },
+              "itemCreationDate": "2026-08-02T09:11:00.000Z",
+              "itemWebUrl": "https://www.ebay.com/itm/406612340201",
+              "buyingOptions": [
+                "FIXED_PRICE"
+              ],
+              "itemLocation": {
+                "country": "US"
+              }
+            },
+            {
+              "itemId": "v1|406612340202|0",
+              "title": "Fujifilm XF 56mm F1.2 R Lens Mint Boxed",
+              "price": {
+                "value": "699.00",
+                "currency": "USD"
+              },
+              "conditionId": "3000",
+              "condition": "Used",
+              "seller": {
+                "username": "tokyo_optics",
+                "feedbackPercentage": "99.4",
+                "feedbackScore": 2841
+              },
+              "itemCreationDate": "2026-07-28T09:11:00.000Z",
+              "itemWebUrl": "https://www.ebay.com/itm/406612340202",
+              "buyingOptions": [
+                "FIXED_PRICE"
+              ],
+              "itemLocation": {
+                "country": "US"
+              }
+            },
+            {
+              "itemId": "v1|406612340203|0",
+              "title": "Fujifilm XF56MMF12R 56mm f/1.2 R Lens Clean",
+              "price": {
+                "value": "640.00",
+                "currency": "USD"
+              },
+              "conditionId": "3000",
+              "condition": "Used",
+              "seller": {
+                "username": "the_lens_bin",
+                "feedbackPercentage": "99.4",
+                "feedbackScore": 2841
+              },
+              "itemCreationDate": "2026-08-04T09:11:00.000Z",
+              "itemWebUrl": "https://www.ebay.com/itm/406612340203",
+              "buyingOptions": [
+                "FIXED_PRICE"
+              ],
+              "itemLocation": {
+                "country": "US"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
