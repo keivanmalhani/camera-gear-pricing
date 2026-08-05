@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.venv/
+venv/
+
+# Test and tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# gearwatch runtime artifacts.
+# The database and the response cache are local state, never committed. The
+# response cache in particular can contain marketplace payloads.
+*.db
+*.db-journal
+*.sqlite3
+.gearwatch-cache/
+gearwatch.html
+
+# Credentials never belong in this repository. gearwatch only ever reads them
+# from the environment, but these entries exist so a stray file cannot be
+# committed by accident.
+.env
+.env.*
+*.pem
+secrets.json
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
