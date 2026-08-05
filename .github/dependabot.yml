@@ -1,0 +1,15 @@
+# Every other repo in this family has one, and a security baseline that is
+# applied to most repos is not a baseline. Weekly is deliberate: a daily
+# cadence on a personal project produces noise nobody reads, which is the
+# same as having no updates at all.
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
