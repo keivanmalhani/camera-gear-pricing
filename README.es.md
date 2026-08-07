@@ -5,6 +5,8 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![Dependencias de ejecucion: ninguna](https://img.shields.io/badge/runtime%20dependencies-none-brightgreen.svg)](pyproject.toml)
 
+![Demo de gearwatch: arma una banda de precios de ventas reales desde la API oficial y puntua un anuncio en vivo contra ella](docs/demo.gif)
+
 **Seguimiento de precios de equipo fotografico usado a partir de APIs oficiales.**
 
 Le dices a gearwatch que estas buscando. El programa obtiene ventas completadas

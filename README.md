@@ -5,6 +5,8 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![Runtime dependencies: none](https://img.shields.io/badge/runtime%20dependencies-none-brightgreen.svg)](pyproject.toml)
 
+![gearwatch demo: build a sold-price band from official API data, then score a live listing against it](docs/demo.gif)
+
 **Used camera gear price tracking from official marketplace APIs.**
 
 Tell gearwatch what you are hunting. It pulls completed-sale comparables from
