@@ -18,6 +18,7 @@ import os
 import sys
 from typing import List, Optional, Sequence, TextIO, Tuple
 
+from . import __version__
 from . import alerts, dashboard as dashboard_mod, db, ebay, match, report, stats
 from .auth import (
     CLIENT_ID_ENV,
@@ -71,6 +72,7 @@ def build_parser() -> argparse.ArgumentParser:
         ),
         epilog="gearwatch never scrapes. Official APIs only.",
     )
+    parser.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
     parser.add_argument(
         "--db",
         default=None,
