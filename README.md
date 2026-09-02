@@ -14,8 +14,6 @@ the official eBay Browse and Marketplace Insights APIs, builds a price history
 per model per condition, and tells you whether a live listing is actually a deal
 against that model's own recent sold distribution.
 
-*Read this in [Spanish / espanol](README.es.md).*
-
 ---
 
 ## Official APIs only. No scraping. Ever.
