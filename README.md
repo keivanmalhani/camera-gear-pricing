@@ -299,7 +299,8 @@ persisted from the response headers, so a stray `Set-Cookie` never lands on disk
 
 ## Security
 
-This is a portfolio piece and the security posture is meant to be exemplary.
+The tool holds API credentials, so every property below is enforced in code rather
+than by convention, and each one has a test that fails if it regresses.
 
 | Property | How it is enforced | Where it is tested |
 | --- | --- | --- |
